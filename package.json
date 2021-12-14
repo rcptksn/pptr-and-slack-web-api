@@ -1,0 +1,26 @@
+{
+  "name": "pptr-and-slack-webapi",
+  "version": "1.0.0",
+  "description": "Puppeteer ve slack webapi kullanarak slack üzerinde bulunan bir kanala mesaj göndermek",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcptksn/pptr-and-slack-web-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcptksn/pptr-and-slack-web-api/issues"
+  },
+  "homepage": "https://github.com/rcptksn/pptr-and-slack-web-api#readme",
+  "dependencies": {
+    "@slack/web-api": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^13.0.0"
+  }
+}
